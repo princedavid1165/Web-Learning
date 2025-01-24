@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    /* initial color */
+    .link-state a {
+        color: red;
+    }
+
+    /* initial color */
+    .link-state a:hover {
+        color: green;
+    }
+
+    /* initial color */
+    .link-state a:active {
+        color: yellow;
+    }
+
+    /* initial color */
+    .link-state a:visited {
+        color: rgb(0, 255, 225);
+    }
+
+    .bg {
+        background-image: url(om-ambani.png);
+    }
+
+    .cover {
+        background-image: url(om-ambani.png);
+        background-repeat: no-repeat;
+        background-size: cover  ;
+    }
+
+    .stretch {
+        background-image: url(om-ambani.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .contain {
+        background-image: url(om-ambani.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+</style>
+
+<body>
+
+    <!-- Headings -->
+
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Headings</h1>
+
+    <h1>Hello World! H1</h1>
+    <h2 id="h2">Hello World! H2</h2>
+    <h3>Hello World! H3</h3>
+    <h4>Hello World! H4</h4>
+    <h5>Hello World! H5</h5>
+    <H6>Hello World! H6</H6>
+
+    <hr>
+
+    <!-- Paragraph -->
+
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Paragraph</h1>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quasi quam voluptatibus qui earum
+        facilis nulla quisquam animi <br> voluptates quas voluptatum labore error fugit, praesentium, id sequi,
+        corporis ad architecto libero. Repudiandae exercitationem ea porro doloremque odit dolores, <br> autem fugit
+        animi velit voluptates vel maxime labore non, nesciunt aperiam rerum!</p>
+
+    <hr>
+
+    <!-- Link -->
+
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Link</h1>
+
+    <a href="https://forthetruth.in">ForTheTruth</a> <br>
+
+    <hr>
+
+    <!-- Image -->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Images</h1>
+
+    <p>Original size of Image</p>
+    <img src="om-gangster.png" alt="Om Gangster">
+    <hr>
+    <p>Image with fixed height width</p>
+    <img src="om-ambani.png" alt="Om-Ambani" height="400px" width="400px">
+    <hr>
+
+
+    <!-- Style in HTML -->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Styling</h1>
+
+    <h4 style="color: blue;">This is Blue color</h4>
+    <p style="background-color: green;">This is the paraghraph with green background</p>
+    <h4 style="font-size: 30px;">Font size 30</h4>
+    <h4 style="font-family: monospace;">This is monospace font</h4>
+    <p style="text-align: center;">Text-alignment will be centered</p>
+    <hr>
+
+    <!-- text formatting -->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Text Formatting</h1>
+
+    <p><b> This line is bold. </b></p>
+    <p><strong>This is important text</strong></p>
+    <p><i>This line is Italic</i></p>
+    <p>This text is <em>emphasized</em></p>
+    <p>This text is <mark>Marked</mark></p>
+    <p>This text is <del>deleted</del>from this line</p>
+    <p>This text is <ins>inserted</ins></p>
+    <p>This text is <sup>superscripted</sup></p>
+    <p>this text is <sub>subscripted</sub></p>
+
+    <hr>
+
+    <!-- Quotations -->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Quotations</h1>
+
+    <!-- Blockquote -->
+
+    <p>
+    <blockquote cite="https://forthetruth.in">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Inventore quasi quam voluptatibus qui earum
+            facilis nulla quisquam animi <br> voluptates quas voluptatum labore error fugit, praesentium, id sequi, <br>
+            corporis ad architecto libero. Repudiandae exercitationem ea porro doloremque odit dolores, <br> autem fugit
+            animi velit voluptates vel maxime labore non, <br> nesciunt aperiam rerum!</p>
+    </blockquote>
+    </p>
+
+    <!-- Quote -->
+
+    <p>Hear this: <q>You don't have a soul, you are a soul you have a body!</q></p>
+
+    <!-- Abbriviation -->
+
+    <p>used abbriviation to show the full form of <abbr title="World Wide Web">WWW</abbr>.</p>
+
+    <!-- Address -->
+
+    <address>
+        Dream Encalve sector 18 <br>
+        Vrindavan Yojna <br>
+        Lucknow 226029 <br>
+        Uttar Pradesh
+    </address>
+
+    <!-- Cite -->
+
+    <p><cite>Heaven:</cite>The only place without Tears!</p>
+
+    <!-- bdo -->
+
+    <p><bdo dir="rtl">This text will come from right to left</bdo></p>
+
+    <!-- HTML Links -->
+
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">HTML links</h1>
+
+    <a href="https://abnyweb.in/" target="_parent">this link has target parent</a> <br>
+    <a href="https://abnyweb.in/" target="_self">this link has target self</a> <br>
+    <a href="https://abnyweb.in/" target="_blank">this link has target blank</a> <br>
+    <a href="https://abnyweb.in/" target="_top">this link has target top</a> <br>
+
+    <!--link is image-->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Link as image</h1>
+
+    <a href="https://abnyweb.in/">
+        <img src="om-gangster.png" alt="om bhai">
+    </a>
+    <br>
+    <!-- link as email -->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Link as email</h1>
+
+    <a href="mailto:princedavid1165@gmail.com">My email</a> <br>
+
+    <!-- link title -->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Link title</h1>
+
+    <a href="https://abnyweb.in/" title="This link will open ABNY's website">Go to ABNY</a>
+
+    <!-- Link color and state -->
+
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Link color and state</h1>
+
+    <div class="link-state">
+        <a href="https://abnyweb.in/">ABNY Web</a>
+    </div>
+
+
+    <!-- Link Bookmark -->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Link Bookmark</h1>
+
+    <a href="#h2">this will jump to h2</a>
+
+    <!-- Image mapping -->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Image mapping</h1>
+
+    <img src="mapimage.png" alt="map-image" usemap="#map">
+
+    <map name="map">
+        <area shape="rect" coords="94,125,133,230" href="money.png" target="_blank" alt="money-image">
+        <area shape="rect" coords="209,112,381,243" href="notebook.png" target="_blank" alt="notebook-image">
+        <area shape="circle" coords="486,178,50" href="cup.png" target="_blank" alt="cup-image">
+    </map> <br>
+
+    <!-- Background Image -->
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Background Image</h1>
+
+        <!-- repeated Image -->
+    <p>repeated image</p>
+
+    <div class="bg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta autem quibusdam laboriosam, perferendis
+            cumque quis! Alias, error minus? Labore ut nobis asperiores minima facilis cum reiciendis ea voluptate
+            facere porro minus libero rem veritatis, vel sunt iste consequuntur incidunt doloribus culpa corrupti quam?
+            Non earum doloribus culpa hic rerum consectetur natus reiciendis odio, repellendus et id perferendis
+            exercitationem suscipit accusamus ipsum mollitia ea ut dolorum animi minima repudiandae! Sapiente, magnam
+            vitae dolore blanditiis et doloremque ratione. Unde commodi quos delectus sequi illo dicta officiis dolorum,
+            veritatis eos velit pariatur hic accusantium eligendi! Itaque quia vel animi voluptate praesentium
+            autem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, culpa accusantium recusandae adipisci
+            sapiente quae voluptate vero! Neque, magnam sint accusamus obcaecati inventore doloribus eos dolore corporis
+            culpa dolorem modi ab repellat aliquid, ad sequi vero quaerat doloremque perferendis quisquam quasi quia
+            quis ducimus? Iusto numquam quos reprehenderit molestias consequuntur consectetur reiciendis aliquam
+            pariatur autem? Ab distinctio, dignissimos reiciendis doloribus, quam voluptatum maiores possimus nesciunt
+            placeat omnis porro explicabo neque fugit incidunt libero ut deserunt veritatis? Magni quisquam non numquam.
+            Ea quod velit aliquid, quae inventore corrupti possimus officiis tempora maiores cumque quaerat nulla rem
+            suscipit aperiam, cupiditate dicta voluptates?</p>
+    </div>
+
+    <!-- size covere and no repeat -->
+    <p>size covere and no repeat</p>
+
+    <div class="cover">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta autem quibusdam laboriosam, perferendis
+            cumque quis! Alias, error minus? Labore ut nobis asperiores minima facilis cum reiciendis ea voluptate
+            facere porro minus libero rem veritatis, vel sunt iste consequuntur incidunt doloribus culpa corrupti quam?
+            Non earum doloribus culpa hic rerum consectetur natus reiciendis odio, repellendus et id perferendis
+            exercitationem suscipit accusamus ipsum mollitia ea ut dolorum animi minima repudiandae! Sapiente, magnam
+            vitae dolore blanditiis et doloremque ratione. Unde commodi quos delectus sequi illo dicta officiis dolorum,
+            veritatis eos velit pariatur hic accusantium eligendi! Itaque quia vel animi voluptate praesentium
+            autem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, culpa accusantium recusandae adipisci
+            sapiente quae voluptate vero! Neque, magnam sint accusamus obcaecati inventore doloribus eos dolore corporis
+            culpa dolorem modi ab repellat aliquid, ad sequi vero quaerat doloremque perferendis quisquam quasi quia
+            quis ducimus? Iusto numquam quos reprehenderit molestias consequuntur consectetur reiciendis aliquam
+            pariatur autem? Ab distinctio, dignissimos reiciendis doloribus, quam voluptatum maiores possimus nesciunt
+            placeat omnis porro explicabo neque fugit incidunt libero ut deserunt veritatis? Magni quisquam non numquam.
+            Ea quod velit aliquid, quae inventore corrupti possimus officiis tempora maiores cumque quaerat nulla rem
+            suscipit aperiam, cupiditate dicta voluptates?</p>
+
+    </div>
+
+    <!-- Stretch Image -->
+    <p>Stretch Image</p>
+
+    <div class="stretch">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta autem quibusdam laboriosam, perferendis
+            cumque quis! Alias, error minus? Labore ut nobis asperiores minima facilis cum reiciendis ea voluptate
+            facere porro minus libero rem veritatis, vel sunt iste consequuntur incidunt doloribus culpa corrupti quam?
+            Non earum doloribus culpa hic rerum consectetur natus reiciendis odio, repellendus et id perferendis
+            exercitationem suscipit accusamus ipsum mollitia ea ut dolorum animi minima repudiandae! Sapiente, magnam
+            vitae dolore blanditiis et doloremque ratione. Unde commodi quos delectus sequi illo dicta officiis dolorum,
+            veritatis eos velit pariatur hic accusantium eligendi! Itaque quia vel animi voluptate praesentium
+            autem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, culpa accusantium recusandae adipisci
+            sapiente quae voluptate vero! Neque, magnam sint accusamus obcaecati inventore doloribus eos dolore corporis
+            culpa dolorem modi ab repellat aliquid, ad sequi vero quaerat doloremque perferendis quisquam quasi quia
+            quis ducimus? Iusto numquam quos reprehenderit molestias consequuntur consectetur reiciendis aliquam
+            pariatur autem? Ab distinctio, dignissimos reiciendis doloribus, quam voluptatum maiores possimus nesciunt
+            placeat omnis porro explicabo neque fugit incidunt libero ut deserunt veritatis? Magni quisquam non numquam.
+            Ea quod velit aliquid, quae inventore corrupti possimus officiis tempora maiores cumque quaerat nulla rem
+            suscipit aperiam, cupiditate dicta voluptates?</p>
+
+    </div>
+
+
+    <!-- contain Image -->
+    <p>contain Image</p>
+
+    <div class="contain">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta autem quibusdam laboriosam, perferendis
+            cumque quis! Alias, error minus? Labore ut nobis asperiores minima facilis cum reiciendis ea voluptate
+            facere porro minus libero rem veritatis, vel sunt iste consequuntur incidunt doloribus culpa corrupti quam?
+            Non earum doloribus culpa hic rerum consectetur natus reiciendis odio, repellendus et id perferendis
+            exercitationem suscipit accusamus ipsum mollitia ea ut dolorum animi minima repudiandae! Sapiente, magnam
+            vitae dolore blanditiis et doloremque ratione. Unde commodi quos delectus sequi illo dicta officiis dolorum,
+            veritatis eos velit pariatur hic accusantium eligendi! Itaque quia vel animi voluptate praesentium
+            autem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, culpa accusantium recusandae adipisci
+            sapiente quae voluptate vero! Neque, magnam sint accusamus obcaecati inventore doloribus eos dolore corporis
+            culpa dolorem modi ab repellat aliquid, ad sequi vero quaerat doloremque perferendis quisquam quasi quia
+            quis ducimus? Iusto numquam quos reprehenderit molestias consequuntur consectetur reiciendis aliquam
+            pariatur autem? Ab distinctio, dignissimos reiciendis doloribus, quam voluptatum maiores possimus nesciunt
+            placeat omnis porro explicabo neque fugit incidunt libero ut deserunt veritatis? Magni quisquam non numquam.
+            Ea quod velit aliquid, quae inventore corrupti possimus officiis tempora maiores cumque quaerat nulla rem
+            suscipit aperiam, cupiditate dicta voluptates?</p>
+
+    </div>
+
+<!-- Picture -->
+
+    <h1 style="font-family: sans-serif; color: rgb(0, 164, 60);">Picture</h1>
+
+    <picture>
+        <source media="(min-width: 1080px)" srcset="notebook.png">
+        <source media="(min-width: 720px)" srcset="money.png">
+        <source media="(min-width: 468px)" srcset="cup.png">
+        <img src="om-ambani.png" alt="om">
+    </picture>
+
+</body>
+
+</html>
